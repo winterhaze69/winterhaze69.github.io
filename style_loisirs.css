@@ -1,0 +1,257 @@
+*{
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+
+}
+header{
+  height: 5vh;
+  width: 100vw;
+  background-color: rgba(0,0,0, 0.7);
+  position: fixed;
+
+}
+a{
+text-decoration-line: none;
+}
+main{
+  height: 100vh;
+  width: 100vw;
+}
+li {
+  color: white;
+
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.noStyle{
+  list-style: none;
+}
+
+.center{
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1%;
+  margin-top: 0;
+}
+
+a{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight:bold;
+}
+
+.borders{
+ border-left: 1px white double;
+ border-right: 1px white double;
+ padding-left: 10vw;
+ padding-right: 10vw;
+}
+
+.border{
+  border-left: 1px white double;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.padding{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.loisirs{
+  width: 100vw;
+  height: 100vh;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/coco.gif");
+  background-size: cover;
+
+}
+.theLayer{
+
+  height: 60%;
+  width: 44%;
+  background-color: rgba(211,211,211, 0.0);
+  position: absolute;
+  top: 10.5%;
+    left: 28.3%;
+  border-radius: 10%;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardintern1{
+  height: 50%;
+  width: 100%;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+}
+
+.cardintern1 img{
+  height: 100%;
+  width: 40%;
+}
+
+.cardintern2{
+  height: 50%;
+  width: 100%;
+  display :flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.imgcardintern21{
+  height: 100%;
+  width: 50%;
+  display :flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imgcardintern21 img{
+  height: 100%;
+  width: 83%;
+  display: flex;
+  align-content: flex-start;
+
+}
+.imgcardintern22{
+  height: 100%;
+  width: 50%;
+  display :flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.imgcardintern22 img{
+  height: 100%;
+  width: 83%;
+}
+.separator{
+height: 100%;
+width: 7%;
+}
+/*#hobby1{
+position: absolute;
+bottom: 32.8vh;
+left: 14.5vw;
+z-index: 1;
+}
+ .kenobi{
+position: absolute;
+top: 23.6vh;
+left: 22.4vw;
+}
+.tobe3{
+position: absolute;
+top:23.6vh;
+left:6.7vw ;
+} */
+/* .hobby1layer{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 7.9vw solid transparent;
+ border-bottom : 24.7vh solid lightgrey;
+ border-left : 7.9vw solid transparent;
+ position: absolute;
+ left: 14.4vw;
+ top: 2.4vh;
+ z-index: 0;
+} */
+
+#txt{
+  position: absolute;
+  bottom: 54.5vh;
+  left: 5.8vw;
+  z-index: 1;
+  color: green;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10vh;
+}
+#txt2{
+  position: absolute;
+  bottom: 12vh;
+  right:37.5vw;
+  z-index: 1;
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10vh;
+}
+#txt3{
+  position: absolute;
+  bottom: 11vh;
+  left: 37vw;
+  z-index: 1;
+  color:lightblue;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10vh;
+}
+@media only screen and (max-width: 600px) {
+
+.border {
+  border-left: 0;
+   border-right: 0vw;
+   padding-left: 0vw;
+   padding-right: 0vw;
+}
+.borders {
+  border-left: 0;
+   padding-left: 0vw;
+   border-right: 0vw;
+   padding-right: 0vw;
+}
+.padding {
+    padding-left:0vw;
+    padding-right: 0vw;
+}
+#txt{
+  position: absolute;
+  bottom: 56.5vh;
+  left: 2.8vw;
+  z-index: 1;
+  color: green;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4vh;
+}
+#txt2{
+  position: absolute;
+  bottom: 12vh;
+  right:37.5vw;
+  z-index: 1;
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4vh;
+}
+#txt3{
+  position: absolute;
+  bottom: 11vh;
+  left: 37vw;
+  z-index: 1;
+  color:lightblue;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4vh;
+}
+}
